@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F404E8329B62DF000A6697D /* macos_CameraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F404E8229B62DF000A6697D /* macos_CameraApp.swift */; };
+		2F404E8529B62DF000A6697D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F404E8429B62DF000A6697D /* ContentView.swift */; };
+		2F404E8729B62DF000A6697D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F404E8629B62DF000A6697D /* Assets.xcassets */; };
+		2F404E8A29B62DF000A6697D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F404E8929B62DF000A6697D /* Preview Assets.xcassets */; };
+		2F404E9229B62E8300A6697D /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F404E9129B62E8300A6697D /* PreviewView.swift */; };
+		2F404E9429B62E9A00A6697D /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F404E9329B62E9A00A6697D /* CameraController.swift */; };
+		2F404E9629B62EB200A6697D /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F404E9529B62EB200A6697D /* AppError.swift */; };
+		2F404E9829B6356200A6697D /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F404E9729B6356200A6697D /* ImageView.swift */; };
+		2F404EAD29B638C600A6697D /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F404E9929B638C500A6697D /* 8.png */; };
+		2F404EAE29B638C600A6697D /* 10.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F404E9A29B638C500A6697D /* 10.png */; };
+		2F404EAF29B638C600A6697D /* 13.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F404E9B29B638C500A6697D /* 13.png */; };
+		2F404EB029B638C600A6697D /* 12.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F404E9C29B638C500A6697D /* 12.png */; };
+		2F404EB129B638C600A6697D /* S.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F404E9D29B638C500A6697D /* S.png */; };
+		2F404EB229B638C600A6697D /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F404E9E29B638C500A6697D /* 3.png */; };
+		2F404EB329B638C600A6697D /* 15.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F404E9F29B638C500A6697D /* 15.png */; };
+		2F404EB429B638C600A6697D /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F404EA029B638C500A6697D /* 4.png */; };
+		2F404EB529B638C600A6697D /* 14.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F404EA129B638C500A6697D /* 14.png */; };
+		2F404EB629B638C600A6697D /* 11.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F404EA229B638C500A6697D /* 11.png */; };
+		2F404EB729B638C600A6697D /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F404EA329B638C500A6697D /* 2.png */; };
+		2F404EB829B638C600A6697D /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F404EA429B638C500A6697D /* 0.png */; };
+		2F404EB929B638C600A6697D /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F404EA529B638C500A6697D /* 9.png */; };
+		2F404EBA29B638C600A6697D /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F404EA629B638C500A6697D /* 1.png */; };
+		2F404EBB29B638C600A6697D /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F404EA729B638C500A6697D /* 6.png */; };
+		2F404EBC29B638C600A6697D /* X.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F404EA829B638C600A6697D /* X.png */; };
+		2F404EBD29B638C600A6697D /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F404EA929B638C600A6697D /* 5.png */; };
+		2F404EBE29B638C600A6697D /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F404EAA29B638C600A6697D /* 7.png */; };
+		2F404EBF29B638C600A6697D /* P.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F404EAB29B638C600A6697D /* P.png */; };
+		2F404EC029B638C600A6697D /* B.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F404EAC29B638C600A6697D /* B.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F404E7F29B62DF000A6697D /* macos_Camera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = macos_Camera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F404E8229B62DF000A6697D /* macos_CameraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macos_CameraApp.swift; sourceTree = "<group>"; };
+		2F404E8429B62DF000A6697D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2F404E8629B62DF000A6697D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F404E8929B62DF000A6697D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2F404E8B29B62DF000A6697D /* macos_Camera.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macos_Camera.entitlements; sourceTree = "<group>"; };
+		2F404E9129B62E8300A6697D /* PreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		2F404E9329B62E9A00A6697D /* CameraController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
+		2F404E9529B62EB200A6697D /* AppError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		2F404E9729B6356200A6697D /* ImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		2F404E9929B638C500A6697D /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		2F404E9A29B638C500A6697D /* 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10.png; sourceTree = "<group>"; };
+		2F404E9B29B638C500A6697D /* 13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 13.png; sourceTree = "<group>"; };
+		2F404E9C29B638C500A6697D /* 12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12.png; sourceTree = "<group>"; };
+		2F404E9D29B638C500A6697D /* S.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = S.png; sourceTree = "<group>"; };
+		2F404E9E29B638C500A6697D /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		2F404E9F29B638C500A6697D /* 15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 15.png; sourceTree = "<group>"; };
+		2F404EA029B638C500A6697D /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		2F404EA129B638C500A6697D /* 14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 14.png; sourceTree = "<group>"; };
+		2F404EA229B638C500A6697D /* 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11.png; sourceTree = "<group>"; };
+		2F404EA329B638C500A6697D /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		2F404EA429B638C500A6697D /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
+		2F404EA529B638C500A6697D /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
+		2F404EA629B638C500A6697D /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		2F404EA729B638C500A6697D /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		2F404EA829B638C600A6697D /* X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = X.png; sourceTree = "<group>"; };
+		2F404EA929B638C600A6697D /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		2F404EAA29B638C600A6697D /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		2F404EAB29B638C600A6697D /* P.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = P.png; sourceTree = "<group>"; };
+		2F404EAC29B638C600A6697D /* B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = B.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F404E7C29B62DF000A6697D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F404E7629B62DF000A6697D = {
+			isa = PBXGroup;
+			children = (
+				2F404E8129B62DF000A6697D /* macos_Camera */,
+				2F404E8029B62DF000A6697D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F404E8029B62DF000A6697D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F404E7F29B62DF000A6697D /* macos_Camera.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F404E8129B62DF000A6697D /* macos_Camera */ = {
+			isa = PBXGroup;
+			children = (
+				2F404E8229B62DF000A6697D /* macos_CameraApp.swift */,
+				2F404E9129B62E8300A6697D /* PreviewView.swift */,
+				2F404E9729B6356200A6697D /* ImageView.swift */,
+				2F404E8429B62DF000A6697D /* ContentView.swift */,
+				2F404E9329B62E9A00A6697D /* CameraController.swift */,
+				2F404E9529B62EB200A6697D /* AppError.swift */,
+				2F404E8629B62DF000A6697D /* Assets.xcassets */,
+				2F404E8B29B62DF000A6697D /* macos_Camera.entitlements */,
+				2F404E8829B62DF000A6697D /* Preview Content */,
+			);
+			path = macos_Camera;
+			sourceTree = "<group>";
+		};
+		2F404E8829B62DF000A6697D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2F404EA429B638C500A6697D /* 0.png */,
+				2F404EA629B638C500A6697D /* 1.png */,
+				2F404EA329B638C500A6697D /* 2.png */,
+				2F404E9E29B638C500A6697D /* 3.png */,
+				2F404EA029B638C500A6697D /* 4.png */,
+				2F404EA929B638C600A6697D /* 5.png */,
+				2F404EA729B638C500A6697D /* 6.png */,
+				2F404EAA29B638C600A6697D /* 7.png */,
+				2F404E9929B638C500A6697D /* 8.png */,
+				2F404EA529B638C500A6697D /* 9.png */,
+				2F404E9A29B638C500A6697D /* 10.png */,
+				2F404EA229B638C500A6697D /* 11.png */,
+				2F404E9C29B638C500A6697D /* 12.png */,
+				2F404E9B29B638C500A6697D /* 13.png */,
+				2F404EA129B638C500A6697D /* 14.png */,
+				2F404E9F29B638C500A6697D /* 15.png */,
+				2F404EAC29B638C600A6697D /* B.png */,
+				2F404EAB29B638C600A6697D /* P.png */,
+				2F404E9D29B638C500A6697D /* S.png */,
+				2F404EA829B638C600A6697D /* X.png */,
+				2F404E8929B62DF000A6697D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F404E7E29B62DF000A6697D /* macos_Camera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F404E8E29B62DF000A6697D /* Build configuration list for PBXNativeTarget "macos_Camera" */;
+			buildPhases = (
+				2F404E7B29B62DF000A6697D /* Sources */,
+				2F404E7C29B62DF000A6697D /* Frameworks */,
+				2F404E7D29B62DF000A6697D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = macos_Camera;
+			productName = macos_Camera;
+			productReference = 2F404E7F29B62DF000A6697D /* macos_Camera.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F404E7729B62DF000A6697D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					2F404E7E29B62DF000A6697D = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 2F404E7A29B62DF000A6697D /* Build configuration list for PBXProject "macos_Camera" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F404E7629B62DF000A6697D;
+			productRefGroup = 2F404E8029B62DF000A6697D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F404E7E29B62DF000A6697D /* macos_Camera */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F404E7D29B62DF000A6697D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F404EC029B638C600A6697D /* B.png in Resources */,
+				2F404EBC29B638C600A6697D /* X.png in Resources */,
+				2F404EB729B638C600A6697D /* 2.png in Resources */,
+				2F404EBD29B638C600A6697D /* 5.png in Resources */,
+				2F404EB329B638C600A6697D /* 15.png in Resources */,
+				2F404EB029B638C600A6697D /* 12.png in Resources */,
+				2F404EB929B638C600A6697D /* 9.png in Resources */,
+				2F404EB529B638C600A6697D /* 14.png in Resources */,
+				2F404EBE29B638C600A6697D /* 7.png in Resources */,
+				2F404EAF29B638C600A6697D /* 13.png in Resources */,
+				2F404EBB29B638C600A6697D /* 6.png in Resources */,
+				2F404EAD29B638C600A6697D /* 8.png in Resources */,
+				2F404EB229B638C600A6697D /* 3.png in Resources */,
+				2F404EB129B638C600A6697D /* S.png in Resources */,
+				2F404EBA29B638C600A6697D /* 1.png in Resources */,
+				2F404EB629B638C600A6697D /* 11.png in Resources */,
+				2F404EBF29B638C600A6697D /* P.png in Resources */,
+				2F404E8A29B62DF000A6697D /* Preview Assets.xcassets in Resources */,
+				2F404EB829B638C600A6697D /* 0.png in Resources */,
+				2F404EAE29B638C600A6697D /* 10.png in Resources */,
+				2F404EB429B638C600A6697D /* 4.png in Resources */,
+				2F404E8729B62DF000A6697D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F404E7B29B62DF000A6697D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F404E9829B6356200A6697D /* ImageView.swift in Sources */,
+				2F404E8529B62DF000A6697D /* ContentView.swift in Sources */,
+				2F404E8329B62DF000A6697D /* macos_CameraApp.swift in Sources */,
+				2F404E9629B62EB200A6697D /* AppError.swift in Sources */,
+				2F404E9429B62E9A00A6697D /* CameraController.swift in Sources */,
+				2F404E9229B62E8300A6697D /* PreviewView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2F404E8C29B62DF000A6697D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2F404E8D29B62DF000A6697D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2F404E8F29B62DF000A6697D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macos_Camera/macos_Camera.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"macos_Camera/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please use camera";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fdeijfewofjefnernfofjve.macos-Camera";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2F404E9029B62DF000A6697D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macos_Camera/macos_Camera.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"macos_Camera/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please use camera";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fdeijfewofjefnernfofjve.macos-Camera";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F404E7A29B62DF000A6697D /* Build configuration list for PBXProject "macos_Camera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F404E8C29B62DF000A6697D /* Debug */,
+				2F404E8D29B62DF000A6697D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F404E8E29B62DF000A6697D /* Build configuration list for PBXNativeTarget "macos_Camera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F404E8F29B62DF000A6697D /* Debug */,
+				2F404E9029B62DF000A6697D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F404E7729B62DF000A6697D /* Project object */;
+}

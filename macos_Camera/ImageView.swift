@@ -43,15 +43,9 @@ class ImageView: NSView {
             blocks.append(imageBlock)
             p += 1
         }
-        //self.backgroundColor = .clear
+       
     }
-//
-//    override func layoutSubviews() {
-//
-//            super.layoutSubviews()
-//
-//        }
-    
+
     
     
     
@@ -159,8 +153,8 @@ struct ImageBlock{
 //    }
     
     func setBlockPosition(rect:CGRect){
-        let x = center.midX
-        let y = center.midY
+        let x = center.minX
+        let y = center.minY
         iv.frame = CGRect(x: (rect.midX * x) * 2, y: (rect.midY * y) * 2, width: rect.width * center.width , height: rect.height * center.height)
         
         

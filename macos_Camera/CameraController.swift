@@ -64,7 +64,7 @@ class CameraController: NSViewController, AVCaptureVideoDataOutputSampleBufferDe
         // Select a front facing camera, make an input.
        
         guard let videoDevice = AVCaptureDevice.default(
-            .builtInWideAngleCamera,
+            .deskViewCamera,
             for: .video,
             position: .front)
         else {

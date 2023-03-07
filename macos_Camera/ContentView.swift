@@ -13,10 +13,6 @@ struct ContentView: View {
     @State private var score:[VNBarcodeObservation] = []
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
             CameraView{
                 score = $0
             }.overlay(

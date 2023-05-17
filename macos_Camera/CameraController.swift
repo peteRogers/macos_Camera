@@ -13,7 +13,7 @@ import Vision
 class CameraController: NSViewController, AVCaptureVideoDataOutputSampleBufferDelegate  {
    
     weak var delegate:CameraControllerDelegate?
-    var counter = 0
+   // var counter = 0
     var score: (([VNBarcodeObservation]) -> Void)?
  
     private let sequenceHandler = VNSequenceRequestHandler()
@@ -28,7 +28,8 @@ class CameraController: NSViewController, AVCaptureVideoDataOutputSampleBufferDe
     }
     
     override func loadView() {
-           view = NSView(frame: NSMakeRect(0.0, 0.0, 10, 10))
+        print("from load view")
+        view = NSView(frame: NSMakeRect(0.0, 0.0, 10, 10))
         view.wantsLayer = true
     
        }
@@ -64,7 +65,7 @@ class CameraController: NSViewController, AVCaptureVideoDataOutputSampleBufferDe
         // Select a front facing camera, make an input.
        
         guard let videoDevice = AVCaptureDevice.default(
-            .deskViewCamera,
+            .externalUnknown,
             for: .video,
             position: .front)
         else {
@@ -132,7 +133,10 @@ class CameraController: NSViewController, AVCaptureVideoDataOutputSampleBufferDe
             barcodeRequest.symbologies = [.qr]
             try? self.sequenceHandler.perform([barcodeRequest], on: frame)
             if let results = barcodeRequest.results {
-                score?(results)
+                DispatchQueue.main.async { 
+                    self.score?(results)
+                }
+                
                // print(results.debugDescription)
             }
 

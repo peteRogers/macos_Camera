@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F33A8992A124CF200DFBF63 /* ORSSerial in Frameworks */ = {isa = PBXBuildFile; productRef = 2F33A8982A124CF200DFBF63 /* ORSSerial */; };
+		2F33A89B2A12505100DFBF63 /* Arduino_Connector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F33A89A2A12505100DFBF63 /* Arduino_Connector.swift */; };
+		2F33A8BC2A12D24900DFBF63 /* MyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F33A8BB2A12D24900DFBF63 /* MyModel.swift */; };
+		2F33A8BE2A13DA2B00DFBF63 /* PrinterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F33A8BD2A13DA2B00DFBF63 /* PrinterView.swift */; };
 		2F404E8329B62DF000A6697D /* macos_CameraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F404E8229B62DF000A6697D /* macos_CameraApp.swift */; };
 		2F404E8529B62DF000A6697D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F404E8429B62DF000A6697D /* ContentView.swift */; };
 		2F404E8729B62DF000A6697D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F404E8629B62DF000A6697D /* Assets.xcassets */; };
@@ -14,7 +18,6 @@
 		2F404E9229B62E8300A6697D /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F404E9129B62E8300A6697D /* PreviewView.swift */; };
 		2F404E9429B62E9A00A6697D /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F404E9329B62E9A00A6697D /* CameraController.swift */; };
 		2F404E9629B62EB200A6697D /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F404E9529B62EB200A6697D /* AppError.swift */; };
-		2F404E9829B6356200A6697D /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F404E9729B6356200A6697D /* ImageView.swift */; };
 		2F404EAD29B638C600A6697D /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F404E9929B638C500A6697D /* 8.png */; };
 		2F404EAE29B638C600A6697D /* 10.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F404E9A29B638C500A6697D /* 10.png */; };
 		2F404EAF29B638C600A6697D /* 13.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F404E9B29B638C500A6697D /* 13.png */; };
@@ -35,9 +38,13 @@
 		2F404EBE29B638C600A6697D /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F404EAA29B638C600A6697D /* 7.png */; };
 		2F404EBF29B638C600A6697D /* P.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F404EAB29B638C600A6697D /* P.png */; };
 		2F404EC029B638C600A6697D /* B.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F404EAC29B638C600A6697D /* B.png */; };
+		2F7EBE542A0159BB00195560 /* ReadJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7EBE532A0159BB00195560 /* ReadJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F33A89A2A12505100DFBF63 /* Arduino_Connector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arduino_Connector.swift; sourceTree = "<group>"; };
+		2F33A8BB2A12D24900DFBF63 /* MyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyModel.swift; sourceTree = "<group>"; };
+		2F33A8BD2A13DA2B00DFBF63 /* PrinterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinterView.swift; sourceTree = "<group>"; };
 		2F404E7F29B62DF000A6697D /* macos_Camera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = macos_Camera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F404E8229B62DF000A6697D /* macos_CameraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macos_CameraApp.swift; sourceTree = "<group>"; };
 		2F404E8429B62DF000A6697D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -47,7 +54,6 @@
 		2F404E9129B62E8300A6697D /* PreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
 		2F404E9329B62E9A00A6697D /* CameraController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
 		2F404E9529B62EB200A6697D /* AppError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
-		2F404E9729B6356200A6697D /* ImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		2F404E9929B638C500A6697D /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
 		2F404E9A29B638C500A6697D /* 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10.png; sourceTree = "<group>"; };
 		2F404E9B29B638C500A6697D /* 13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 13.png; sourceTree = "<group>"; };
@@ -68,6 +74,7 @@
 		2F404EAA29B638C600A6697D /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
 		2F404EAB29B638C600A6697D /* P.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = P.png; sourceTree = "<group>"; };
 		2F404EAC29B638C600A6697D /* B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = B.png; sourceTree = "<group>"; };
+		2F7EBE532A0159BB00195560 /* ReadJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F33A8992A124CF200DFBF63 /* ORSSerial in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,9 +110,12 @@
 			children = (
 				2F404E8229B62DF000A6697D /* macos_CameraApp.swift */,
 				2F404E9129B62E8300A6697D /* PreviewView.swift */,
-				2F404E9729B6356200A6697D /* ImageView.swift */,
 				2F404E8429B62DF000A6697D /* ContentView.swift */,
 				2F404E9329B62E9A00A6697D /* CameraController.swift */,
+				2F33A89A2A12505100DFBF63 /* Arduino_Connector.swift */,
+				2F33A8BB2A12D24900DFBF63 /* MyModel.swift */,
+				2F33A8BD2A13DA2B00DFBF63 /* PrinterView.swift */,
+				2F7EBE532A0159BB00195560 /* ReadJSON.swift */,
 				2F404E9529B62EB200A6697D /* AppError.swift */,
 				2F404E8629B62DF000A6697D /* Assets.xcassets */,
 				2F404E8B29B62DF000A6697D /* macos_Camera.entitlements */,
@@ -157,6 +168,9 @@
 			dependencies = (
 			);
 			name = macos_Camera;
+			packageProductDependencies = (
+				2F33A8982A124CF200DFBF63 /* ORSSerial */,
+			);
 			productName = macos_Camera;
 			productReference = 2F404E7F29B62DF000A6697D /* macos_Camera.app */;
 			productType = "com.apple.product-type.application";
@@ -185,6 +199,9 @@
 				Base,
 			);
 			mainGroup = 2F404E7629B62DF000A6697D;
+			packageReferences = (
+				2F33A8972A124CF200DFBF63 /* XCRemoteSwiftPackageReference "ORSSerialPort" */,
+			);
 			productRefGroup = 2F404E8029B62DF000A6697D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,12 +248,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F404E9829B6356200A6697D /* ImageView.swift in Sources */,
+				2F7EBE542A0159BB00195560 /* ReadJSON.swift in Sources */,
 				2F404E8529B62DF000A6697D /* ContentView.swift in Sources */,
 				2F404E8329B62DF000A6697D /* macos_CameraApp.swift in Sources */,
 				2F404E9629B62EB200A6697D /* AppError.swift in Sources */,
 				2F404E9429B62E9A00A6697D /* CameraController.swift in Sources */,
+				2F33A8BE2A13DA2B00DFBF63 /* PrinterView.swift in Sources */,
 				2F404E9229B62E8300A6697D /* PreviewView.swift in Sources */,
+				2F33A89B2A12505100DFBF63 /* Arduino_Connector.swift in Sources */,
+				2F33A8BC2A12D24900DFBF63 /* MyModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +394,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "fdeijfewofjefnernfofjve.macos-Camera";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -400,6 +421,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "fdeijfewofjefnernfofjve.macos-Camera";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -430,6 +452,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2F33A8972A124CF200DFBF63 /* XCRemoteSwiftPackageReference "ORSSerialPort" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/armadsen/ORSSerialPort";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2F33A8982A124CF200DFBF63 /* ORSSerial */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2F33A8972A124CF200DFBF63 /* XCRemoteSwiftPackageReference "ORSSerialPort" */;
+			productName = ORSSerial;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2F404E7729B62DF000A6697D /* Project object */;
 }

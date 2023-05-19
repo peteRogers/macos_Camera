@@ -30,8 +30,8 @@ class ArduinoConnector: NSObject, ObservableObject, ORSSerialPortDelegate{
     func openOrClosePort() {
        
         let availablePorts = ORSSerialPortManager.shared().availablePorts
-        print(availablePorts)
-        self.serialPort = ORSSerialPort(path: availablePorts[0].path)
+        print(availablePorts[0].path)
+        self.serialPort = ORSSerialPort(path: "/dev/cu.usbmodem111101")
         // self.serialPort = availablePorts[0]
         self.serialPort?.baudRate = 9600
         self.serialPort?.open()
@@ -61,7 +61,12 @@ class ArduinoConnector: NSObject, ObservableObject, ORSSerialPortDelegate{
         
     }
     
-
+    func sendData(string:String) {
+        let s = "\(string)\n"
+        if let data = s.data(using: String.Encoding.utf8) {
+            self.serialPort?.send(data)
+        }
+    }
     
     func serialPortWasOpened(_ serialPort: ORSSerialPort) {
         //self.openCloseButton.title = "Close"

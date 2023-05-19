@@ -13,6 +13,7 @@ import AppKit
     func didReceiveJSON(_ data: String) {
       
         doThatThing(inString: data)
+        arduino.sendData(string: "b")
     }
     
     func didReceiveData(_ data: String) {
@@ -22,6 +23,7 @@ import AppKit
         if(sentence.isLoading == false){
             sentence.generateSentence(qrcodes: score)
             sentence.makeQuery(myQuery: sentence.sentences)
+            arduino.sendData(string: "a")
             
         }
        

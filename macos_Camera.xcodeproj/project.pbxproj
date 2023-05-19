@@ -10,7 +10,6 @@
 		2F33A8992A124CF200DFBF63 /* ORSSerial in Frameworks */ = {isa = PBXBuildFile; productRef = 2F33A8982A124CF200DFBF63 /* ORSSerial */; };
 		2F33A89B2A12505100DFBF63 /* Arduino_Connector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F33A89A2A12505100DFBF63 /* Arduino_Connector.swift */; };
 		2F33A8BC2A12D24900DFBF63 /* MyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F33A8BB2A12D24900DFBF63 /* MyModel.swift */; };
-		2F33A8BE2A13DA2B00DFBF63 /* PrinterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F33A8BD2A13DA2B00DFBF63 /* PrinterView.swift */; };
 		2F404E8329B62DF000A6697D /* macos_CameraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F404E8229B62DF000A6697D /* macos_CameraApp.swift */; };
 		2F404E8529B62DF000A6697D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F404E8429B62DF000A6697D /* ContentView.swift */; };
 		2F404E8729B62DF000A6697D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F404E8629B62DF000A6697D /* Assets.xcassets */; };
@@ -44,7 +43,6 @@
 /* Begin PBXFileReference section */
 		2F33A89A2A12505100DFBF63 /* Arduino_Connector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arduino_Connector.swift; sourceTree = "<group>"; };
 		2F33A8BB2A12D24900DFBF63 /* MyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyModel.swift; sourceTree = "<group>"; };
-		2F33A8BD2A13DA2B00DFBF63 /* PrinterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinterView.swift; sourceTree = "<group>"; };
 		2F404E7F29B62DF000A6697D /* macos_Camera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = macos_Camera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F404E8229B62DF000A6697D /* macos_CameraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macos_CameraApp.swift; sourceTree = "<group>"; };
 		2F404E8429B62DF000A6697D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -114,7 +112,6 @@
 				2F404E9329B62E9A00A6697D /* CameraController.swift */,
 				2F33A89A2A12505100DFBF63 /* Arduino_Connector.swift */,
 				2F33A8BB2A12D24900DFBF63 /* MyModel.swift */,
-				2F33A8BD2A13DA2B00DFBF63 /* PrinterView.swift */,
 				2F7EBE532A0159BB00195560 /* ReadJSON.swift */,
 				2F404E9529B62EB200A6697D /* AppError.swift */,
 				2F404E8629B62DF000A6697D /* Assets.xcassets */,
@@ -253,7 +250,6 @@
 				2F404E8329B62DF000A6697D /* macos_CameraApp.swift in Sources */,
 				2F404E9629B62EB200A6697D /* AppError.swift in Sources */,
 				2F404E9429B62E9A00A6697D /* CameraController.swift in Sources */,
-				2F33A8BE2A13DA2B00DFBF63 /* PrinterView.swift in Sources */,
 				2F404E9229B62E8300A6697D /* PreviewView.swift in Sources */,
 				2F33A89B2A12505100DFBF63 /* Arduino_Connector.swift in Sources */,
 				2F33A8BC2A12D24900DFBF63 /* MyModel.swift in Sources */,

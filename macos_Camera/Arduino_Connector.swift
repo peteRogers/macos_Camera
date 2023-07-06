@@ -31,7 +31,7 @@ class ArduinoConnector: NSObject, ObservableObject, ORSSerialPortDelegate{
        
         let availablePorts = ORSSerialPortManager.shared().availablePorts
         print(availablePorts[0].path)
-        self.serialPort = ORSSerialPort(path: "/dev/cu.usbmodem111101")
+        self.serialPort = ORSSerialPort(path: "/dev/cu.usbmodem1101")
         // self.serialPort = availablePorts[0]
         self.serialPort?.baudRate = 9600
         self.serialPort?.open()
